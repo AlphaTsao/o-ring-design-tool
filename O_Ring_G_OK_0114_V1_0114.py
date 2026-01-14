@@ -254,7 +254,7 @@ def build_oring_pdf_report(
 
 # --- 以下為 Streamlit 主程式 ---
 
-st.set_page_config(page_title="O-Ring 專業計算器 (V1.0)", layout="wide")
+st.set_page_config(page_title="O-Ring Design Tool (V1.0)", layout="wide")
 
 # CSS Style
 st.markdown("""
@@ -276,7 +276,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🔧 O-Ring 專業計算器 (V1.0)")
+st.title("🔧 O-Ring Design Tool (V1.0)")
 st.caption("產能驅動模擬 (Monte Carlo) | 介面文字優化 | ReportLab PDF 匯出")
 
 def get_chinese_font():
