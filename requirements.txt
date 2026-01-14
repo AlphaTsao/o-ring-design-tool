@@ -1,0 +1,7 @@
+streamlit
+numpy
+pandas
+matplotlib
+pillow
+reportlab
+streamlit-paste-button
